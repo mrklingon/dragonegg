@@ -25,7 +25,7 @@ input.onSound(DetectedSound.Loud, function () {
         . . # # .
         `)
 })
-input.setSoundThreshold(SoundThreshold.Loud, 199)
+input.setSoundThreshold(SoundThreshold.Loud, 165)
 music.startMelody(music.builtInMelody(Melodies.Prelude), MelodyOptions.Once)
 basic.showLeds(`
     . # # . .
